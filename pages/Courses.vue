@@ -1,6 +1,6 @@
 <template>
   <b-container class="page  animate__animated animate__fadeIn">
-    <h2>My courses</h2>
+    <h2>My certifications</h2>
     <b-row class="articles" v-if="blogs.length > 0">
       <div class="col-md-6" v-for="blog in blogs" :key="blog.id">
         <div>
@@ -41,22 +41,22 @@ export default {
     };
   },
   head: {
-    title: "My courses 📚 - Eder Antonio",
+    title: "My certifications 📚 - Eder Antonio",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "Courses: web development (html, css, javascript), mobile app development and many more."
+          "certifications: web development (html, css, javascript), mobile app development and many more."
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "My courses 📚 - Eder Antonio"
+        content: "My my certifications 📚 - Eder Antonio"
       },
       {
         property: "og:description",
-        content: "Courses: web development (html, css, javascript), mobile app development and many more."
+        content: "certifications: web development (html, css, javascript), mobile app development and many more."
       },
     ]
   },
