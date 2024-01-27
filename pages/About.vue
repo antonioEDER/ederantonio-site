@@ -41,7 +41,7 @@
       </div>
       <div class="col-md-6">
         <img
-          src="@/assets/working.png"
+          src="@/assets/eder.jpg"
           alt="About Illustration"
           class="abt-img"
         />
@@ -126,7 +126,7 @@ export default {
 .abt-img {
   width: inherit;
   height: inherit;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 /* .abt-img:hover {
   animation: swing;
