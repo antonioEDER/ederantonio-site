@@ -66,6 +66,7 @@
         <img class="freelancer__img" src="../assets/eder-freelancer.png" />
       </social-link>
     </div>
+    <AlertCookies />
   </div>
 </template>
 
@@ -75,6 +76,7 @@ import LinkedinIcon from "vue-ionicons/dist/logo-linkedin.vue";
 import FacebookIcon from "vue-ionicons/dist/logo-facebook.vue";
 import YoutubeIcon from "vue-ionicons/dist/logo-youtube.vue";
 import MailIcon from "vue-ionicons/dist/md-mail.vue";
+import AlertCookies from '../components/AlertCookies.vue';
 
 export default {
   components: {
@@ -83,6 +85,7 @@ export default {
     FacebookIcon,
     YoutubeIcon,
     MailIcon,
+    AlertCookies
   },
 
   data() {

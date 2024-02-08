@@ -10,6 +10,7 @@
     "prod": "yarn build && yarn generate && yarn start"
   },
   "dependencies": {
+    "@nuxt/ui": "^2.13.0",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "nuxt": "^2.14.0",

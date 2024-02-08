@@ -23,6 +23,20 @@
       </Head>
       <Nuxt />
 
+      <footer>
+        <div class="col-lg-12 text-center">
+              <u-btn
+                to="/politica-de-cookies"
+                label="Política de Cookies"
+                flat
+              />
+              <u-btn
+                to="/politica-de-privacidade"
+                label="Política de Privacidade"
+                flat
+              />
+            </div>
+      </footer>
     </div>
   </div>
 </template>
