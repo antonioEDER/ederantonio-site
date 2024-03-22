@@ -64,6 +64,11 @@ export default {
     // get articles hosted on dev.to
     getCourses() {
       this.blogs = [
+      {
+          id: Math.random() * 1000,
+          title: "Computação em nuvem",
+          image:  require("@/assets/courses/26.png"),
+        },
         {
           id: Math.random() * 1000,
           title: "Vue3: Vuex 4, Typescript, Mixins e Hooks",
